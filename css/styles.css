@@ -275,9 +275,11 @@ img {
 /** Contacto **/
 .contacto-bg {
     background-image: url(../img/contacto.jpg);
-    height: 40rem;
+    height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
 }
 
 .formulario {
